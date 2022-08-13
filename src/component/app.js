@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from './header/Header'
 
-import cycle from './img/cycle.jpg';
+
+import './app.scss'
+
 
 export default function App() {
   return (
-    <div>
-       <img src={cycle}/>
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
