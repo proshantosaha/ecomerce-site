@@ -1,20 +1,85 @@
 .head {
-    background: var(--neviBlue);
-    padding: 10px 0;
-     .i{
-        margin-right: 10px;
-     }
-     label{
-        margin-right: 10px;
-     }
-   
-        .left{
-           
-        }
+
     
-    label{
-        margin-right: 30px;
-        font-size: 13px;
+    background: var(--neviBlue);
+    @media(min-width:360px){
+      
     }
+    @media(min-width:640px){
+        background: var(--neviBlue);
+        padding: 10px 0;
+    }
+  
+    
+    .left{
+        margin: 10px 0px 10px 0px;
+        @media(min-width:640px){
+            margin: 5px 0px 0px 0px;
+        }
+        .i{
+            // margin-right: 0px;
+         
+             display: none;
+     
+            @media(min-width:360px){
+                margin-right: 10px;
+                display: block;
+                
+            }
+            @media(min-width:640px){
+                display: inline-block;
+                // display: block;
+            }
+            // @media(min-width:1080px){
+            //     background: var(--neviBlue);
+            //     padding: 10px 0;
+            //     display: block;
+            // }
+        }
+
+        .inline{
+           
+
+            @media(min-width:640px){
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+        .icon{
+          
+        }
+    }
+    
+    
+   
+   
+        
+    .right{
+        h3{
+           font-size: 12px;
+           margin: 5px 0px;
+        //    text-align: right;
+                @media(min-width:360px){
+                  
+                    font-size: 13px;
+                
+                }
+                @media(min-width:640px){
+              
+                    font-size: 16px;
+                    display: inline;
+                    margin: 0px 30px 0px 0px 
+                 
+                    
+                }
+                @media(min-width:1080px){
+                    margin-right: 30px;
+                    font-size: 18px;
+                    margin: 0px 30px 0px 0px; 
+                   
+                }
+            }
+    }
+    
     
 }

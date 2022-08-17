@@ -11,19 +11,23 @@ export default function Head() {
     <section className='head'>
       <div className='container d_flex'>
         <div className='left row'>
-            <AddIcCallIcon className='i phone'/>
-            <label>+880 1751-040462</label>
-            <MailIcon className="i email"/>
+          <div className='inline'>
+              <AddIcCallIcon className='i phone icon'/>
+              <label>+880 1751-040462</label>
+          </div>
+          <div className='inline'>
+            <MailIcon className="i email icon"/>
             <label>proshantosaha79@gmail.com</label>
+           </div>
         </div>
 
         <div className='right row RText'>
-                <label>Theme FAQ'S</label>
-                <label>Need Help</label>
-                <span></span>
-                <label>EN</label>
-                <span></span>
-                <label>USD</label>
+                <h3>Theme FAQ'S</h3>
+                <h3>Need Help</h3>
+                <h3></h3>
+                <h3>EN</h3>
+                <h3></h3>
+                <h3>USD</h3>
         </div>
       </div>
       
